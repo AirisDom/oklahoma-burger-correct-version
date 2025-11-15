@@ -1,8 +1,12 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
-  --color-midnight-blue: #2C5F7E;
-  --color-golden-yellow: #D6AB42;
+@layer base {
+  :root {
+    --color-midnight-blue: #2C5F7E;
+    --color-golden-yellow: #D6AB42;
+  }
 }
 
 @keyframes slideIn {
