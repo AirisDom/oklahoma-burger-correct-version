@@ -10,11 +10,11 @@ function StudentDiscountBanner() {
         <div className="bg-golden-yellow rounded-xl shadow-lg overflow-hidden">
           <div className="grid md:grid-cols-2 items-center">
             {/* Image */}
-            <div className="order-2 md:order-1 h-48 md:h-full">
+            <div className="order-2 md:order-1 md:h-full">
               <img
                 src={studentsDiscountImage}
                 alt="Student Discount"
-                className="w-full h-full object-cover"
+                className="w-full h-auto md:h-full object-cover"
               />
             </div>
 
