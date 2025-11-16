@@ -2,13 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  :root {
-    --color-midnight-blue: #2C5F7E;
-    --color-golden-yellow: #D6AB42;
-  }
-}
-
 @keyframes slideIn {
   from {
     width: 0;

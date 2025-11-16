@@ -12,13 +12,13 @@ function FAQ() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header Section */}
-      <section className="bg-midnight-blue py-16 md:py-20">
+      <section className="bg-midnight-blue py-3 md:py-4">
         <div className="container mx-auto px-4 max-w-4xl text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+          <h1 className="text-3xl md:text-4xl font-bold mb-1">
             <span className="text-white drop-shadow-lg">{t.faq.title.split(' ')[0]} </span>
             <span className="text-golden-yellow drop-shadow-lg">{t.faq.title.split(' ').slice(1).join(' ')}</span>
           </h1>
-          <p className="text-white text-lg md:text-xl">{t.faq.subtitle}</p>
+          <p className="text-white text-base md:text-lg">{t.faq.subtitle}</p>
         </div>
       </section>
 
